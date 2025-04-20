@@ -1,4 +1,6 @@
-# Tutorial: src
+# Tutorial: fusionauth-jwt 
+
+original project: https://github.com/fusionauth/fusionauth-jwt
 
 This project provides tools to create, sign, encode, and verify **JSON Web Tokens (JWTs)**.
 Think of it like a digital passport system: you can *issue* a passport (`JWT` object), *stamp* it with a secret seal (`Signer`), *laminate* it into a compact string (`JWTEncoder`), and later *check* the seal and read the passport (`JWTDecoder` with a `Verifier`).
